@@ -1,3 +1,62 @@
 body {
-  background-color: rgb(154, 197, 154);
+  background-color: rgb(238, 216, 236);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+}
+p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+}
+
+.main-container {
+  background-color: rgb(229, 245, 223);
+  max-width: 600px;
+  border-radius: 6px;
+  display: block;
+  margin: 70px auto 40px;
+  padding: 40px;
+}
+.emojis {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.text-input {
+  width: 70%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.submit {
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  margin-left: 10px;
+  background-color: rgb(223, 170, 223);
+  width: 22%;
+  font-size: 15px;
+}
+.example {
+  color: rgb(88, 86, 86);
+  padding-top: 20px;
+  text-align: center;
+}
+.recipe {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  margin-top: 40px;
 }
