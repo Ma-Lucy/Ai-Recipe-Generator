@@ -1,6 +1,5 @@
 function recipeFunction(response) {
   let recipeBox = document.querySelector("#recipe");
-  recipeBox.innerHTML = "Generating a recipe for you... please wait";
 
   new Typewriter("#recipe", {
     strings: response.data.answer,
@@ -19,6 +18,8 @@ function handleSubmit(event) {
   let context =
     "You are an experieced chef and know how to use up left over ingredients creatively, please answer in basic html format";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+  let recipeBox = document.querySelector("#recipe");
+  recipeBox.innerHTML = "Generating a recipe for you, please wait...";
 
   axios.get(apiUrl).then(recipeFunction);
 }
