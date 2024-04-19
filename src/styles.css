@@ -48,6 +48,11 @@ footer {
   width: 22%;
   font-size: 15px;
 }
+.submit:hover {
+  background-color: rgb(219, 154, 219);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
 .example {
   color: rgb(88, 86, 86);
   padding-top: 20px;
